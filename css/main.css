@@ -8,9 +8,50 @@
 	height: auto;
 	width: 100px;
 }
+.containerVariation {
+	max-width: 100%;
+}
 .principalFT {
 	background-image: url("../assets/images/taxi.jpg");
+	background-size: cover;
+	background-position: center bottom;
 	width: 100%;
-	height: 200px;
+	box-sizing: border-box;
+	height: 550px;
 }
-
+.square{
+	background-color: #FFC107;
+	height: 50%;
+	width: 45%;
+	margin-top: 15%;
+	color: white;
+	padding: 15px;
+}
+.whiteLogo{
+	margin-left: 10px;
+	height: auto;
+	width: 70px;
+}
+.row .col {
+	padding:0;
+}
+.btn {
+	border-radius: 5px;
+	box-shadow: none;
+}
+.btnOne{
+	margin-top: 20px;
+}
+/* algunas modificaciones solo en mobile */
+@media only screen and (max-width: 600px){
+	/* mobile */
+	.principalFT{
+		height: 350px;
+	}
+	.square {
+		background-color: #FFC107;
+		height: 60%;
+		width: 75%;
+		margin-top: 15%;
+	}
+}
