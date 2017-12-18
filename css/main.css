@@ -3,6 +3,7 @@
 	padding-right: 10px;
 	padding-top: 0;
 	margin-bottom: 0;
+	border:0;
 }
 .logoStyle{
 	height: auto;
@@ -32,9 +33,7 @@
 	height: auto;
 	width: 70px;
 }
-.row .col {
-	padding:0;
-}
+
 .btn {
 	border-radius: 5px;
 	box-shadow: none;
@@ -42,9 +41,123 @@
 .btnOne{
 	margin-top: 20px;
 }
+.principalST{
+	background-color: #FFC107;
+}
+.space{
+	margin-left: 10px;
+}
+.row {
+	margin-bottom: 0;
+}
+.bordersquare{
+	border:1px solid white;
+	width: 80%;
+	height: 80%;
+}
+.blockCenter{
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.principalTS{
+	background-image: url("../assets/images/conduce.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	width: 100%;
+	height: 250px;
+	box-sizing: border-box;
+	padding: 0;
+}
+.boxContent {
+	background-color: rgba(0, 0, 0, 0.342);
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	color: white;
+	padding: 20px;
+	padding-top: 30px;
+}
+.whitebtn{
+	background-color: #FFC107;
+	color: white;
+	margin-top: 10px;
+}
+.minusbolder{
+	font-weight: 100;
+}
+h5{
+	margin:0;
+}
+.fourSection{
+	background-color: #FFC107;
+	color: white;
+	padding: 20px;
+}
+.mapview {
+	margin: 10px 1%;
+	width: 95%;
+	height: 300px;
+	border: 0;
+	border: 1px solid white;
+	padding: 5px;
+}
+.formStyle{
+	width: 50%;
+}
+
+input{
+	width: 50%;
+}
+.footerSection{
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #2B2B2B;
+	color: white;
+}
+.footerSection hr{
+	width: 95%;
+	border: 1px solid white;
+	margin: 5px;
+}
+.footerSection .logo{
+	height: 20px;
+	margin:0;
+}
+
+.items a{
+	display: block;
+	margin: 5px;
+}
+.social a, .items a{
+	color: white;
+}
+.social a{
+	margin: 5px;
+}
 /* algunas modificaciones solo en mobile */
 @media only screen and (max-width: 600px){
 	/* mobile */
+	.social{
+		float: right;
+	}
+	.items{
+		float: left;
+	}
+	.buttonMedia{
+		float: right;
+	}
+	.buttonMedia img{
+		margin-top: 10px;
+		width: 130px;
+		height: auto;
+		display: block;
+	}
+	.hideObject{
+		display: none;
+	}
 	.principalFT{
 		height: 350px;
 	}
